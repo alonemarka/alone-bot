@@ -65,7 +65,7 @@ async def stream_response(message: types.Message, user_message: str):
 async def start_cmd(message: types.Message):
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="💬 Sohbet Başlat", callback_data="chat")],
-        [InlineKeyboardButton(text="👤 Sahibim", url="https://t.me/aloneiste")]
+        [InlineKeyboardButton(text="👤 Sahibim", url="https://t.me/alonehazretleri")]
     ])
     await message.answer("🌌 AloneBot aktif! Ne istiyorsun lan?", reply_markup=keyboard)
 
